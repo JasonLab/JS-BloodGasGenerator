@@ -1,9 +1,16 @@
 table, th, td {
-  border:  5px solid rgba(7,7,7,0.55);
+  
+  font-weight: 700;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;	
+}
+.mytable{
+  border:  none;
   border-collapse: none;
   font-weight: 700;
+  border-radius: 25px;
 }
-
 .mytd {
   border:  5px solid rgba(7,7,7,0.55);
   border-collapse: none;
@@ -11,13 +18,8 @@ table, th, td {
   border-radius: 20px;
   font-size: 20px;
 }
+tr:hover {background-color:	#ADD8E6;} 
 
-.mytable{
-  border:  none;
-  border-collapse: none;
-  font-weight: 700;
-  border-radius: 25px;
-}
 
 .myButton {
 	box-shadow:inset 0px 1px 3px 0px #91b8b3;
@@ -47,8 +49,41 @@ table, th, td {
 body {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRAl2LdM9waodWw7g9ydH418pmorcyWz5eVAfrIUC85yycrFuFO);
 }
+
 .img{
-
 position: relative;
+}
 
+
+p{
+	font-family: 'Arial';
+	font-weight: Bold ;
+}
+p2 {
+    background-color: red;
+}
+p3 {
+    background-color: green;
+}
+p4 {
+	font-style: italic;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #4b3f3f;
+  color: white;
+  text-align: center;
+}
+
+.resultDiv {
+  background-color: yellow;   
+  color: blue; 
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	width: 20%;
 }
